@@ -1,1 +1,27 @@
 
+# 🔐 loginRegister
+
+Kullanıcı kayıt (register) ve giriş (login) işlemlerini PHP ile gerçekleştiren basit ama işlevsel bir sistem.
+
+## 📌 Proje Hakkında
+
+Bu proje, PHP ve MySQL kullanarak:
+- Kullanıcı kayıt işlemi
+- E-posta doğrulama (opsiyonel)
+- Kullanıcı girişi
+- Şifre güvenliği (hashing)
+
+gibi temel kimlik doğrulama işlemlerini gerçekleştirmeyi amaçlar.
+
+## 🛠️ Kullanılan Teknolojiler
+
+- MySQL veya MongoDB
+- HTML/CSS (basit form sayfaları)
+- (Opsiyonel) PHPMailer – e‑posta doğrulama için
+
+## 🚀 Kurulum & Çalıştırma
+
+1. Reposu klonlayın:
+   ```bash
+   git clone https://github.com/SudeNurErturk/loginRegister.git
+   cd loginRegister
