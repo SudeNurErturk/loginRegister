@@ -1,5 +1,4 @@
-
-# 🔐 loginRegister
+### 🔐 loginRegister
 
 Kullanıcı kayıt (register) ve giriş (login) işlemlerini PHP ile gerçekleştiren basit ama işlevsel bir sistem.
 
@@ -15,7 +14,8 @@ gibi temel kimlik doğrulama işlemlerini gerçekleştirmeyi amaçlar.
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- MySQL veya MongoDB
+- PHP (versiyon belirtiniz, örn. PHP 8.1)
+- MySQL veya MariaDB
 - HTML/CSS (basit form sayfaları)
 - (Opsiyonel) PHPMailer – e‑posta doğrulama için
 
