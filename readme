@@ -1,27 +1,39 @@
-### 🔐 loginRegister
+# 🔐 Login & Register Application
 
-Kullanıcı kayıt (register) ve giriş (login) işlemlerini PHP ile gerçekleştiren basit ama işlevsel bir sistem.
+A full-stack user authentication system that allows users to register, log in, and access protected routes. Built using modern JavaScript technologies.
 
-## 📌 Proje Hakkında
+## 🛠️ Tech Stack
 
-Bu proje, PHP ve MySQL kullanarak:
-- Kullanıcı kayıt işlemi
-- E-posta doğrulama (opsiyonel)
-- Kullanıcı girişi
-- Şifre güvenliği (hashing)
+**Frontend**
+- React
+- Axios
+- Tailwind CSS / CSS Modules (opsiyonel)
 
-gibi temel kimlik doğrulama işlemlerini gerçekleştirmeyi amaçlar.
+**Backend**
+- Node.js
+- Express.js
+- MongoDB (Mongoose) or Firebase
+- JWT (JSON Web Token) for authentication
 
-## 🛠️ Kullanılan Teknolojiler
+## 🚀 Features
 
-- PHP (versiyon belirtiniz, örn. PHP 8.1)
-- MySQL veya MariaDB
-- HTML/CSS (basit form sayfaları)
-- (Opsiyonel) PHPMailer – e‑posta doğrulama için
+- ✨ User registration with email & password
+- 🔐 Secure login using hashed passwords
+- 🛡️ JWT-based authentication
+- 🗂️ Protected routes (access only when logged in)
+- 📬 Basic form validation
 
-## 🚀 Kurulum & Çalıştırma
+## 📦 Installation
 
-1. Reposu klonlayın:
-   ```bash
-   git clone https://github.com/SudeNurErturk/loginRegister.git
-   cd loginRegister
+```bash
+# Clone the repository
+git clone https://github.com/SudeNurErturk/loginRegister.git
+cd loginRegister
+
+# Install backend dependencies
+cd backend
+npm install
+
+# Install frontend dependencies
+cd ../frontend
+npm install
